@@ -1,0 +1,45 @@
+{
+    "vidas" : 15,
+    "energia" : 30,
+    "dinero" : 300,
+
+    "info_jugador" : {
+        "nombre" : "Pedro123",
+        "color_favorito" : "verde",
+        "edad" : 15,
+        "cumpleanos" : {
+            "dia" : 10,
+            "mes" : 4
+        }
+    },
+
+    "inventario" : [
+        {
+            "nombre_item" : "Espada de fuego",
+            "descripcion" : "Espada forjada por los elfos nativos del fuego",
+            "cantidad" : 1,
+            "costco" : {
+                "compra" : 300,
+                "venta" : 340
+            }
+        },
+        {
+            "nombre_item" : "Arco",
+            "descripcion" : "Arco para disparar flechas",
+            "cantidad" : 2,
+            "costco" : {
+                "compra" : 90,
+                "venta" : 110
+            }
+        },
+        {
+            "nombre_item" : "Flechas de cuerno de unicornio",
+            "descripcion" : "Flechas hechas con cuernos de unicornio cazados duarnte la primavera por enanos salvajes.",
+            "cantidad" : 500,
+            "costco" : {
+                "compra" : 20,
+                "venta" : 30
+            }
+        }
+    ]
+}
